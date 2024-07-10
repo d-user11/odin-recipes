@@ -14,16 +14,16 @@ img {
     height: auto;
 }
 
+a:hover {
+    background-color: red;
+}
+
 a:any-link {
     text-decoration: none;
     background-color: rgb(163, 162, 162);
     color: rgb(0, 0, 0);
     font-weight: bold;
     border: ridge rgb(172, 172, 172);
-}
-
-a:hover {
-    background-color: red;
 }
 
 .recipe-description {
