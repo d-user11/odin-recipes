@@ -1,0 +1,35 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a:any-link {
+    text-decoration: none;
+    background-color: rgb(163, 162, 162);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: ridge rgb(172, 172, 172);
+}
+
+.recipe-description {
+    color: chocolate;
+}
+
+.ingredients {
+    color: brown;
+}
+
+.steps {
+    color: teal;
+}
