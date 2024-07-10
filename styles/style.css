@@ -22,6 +22,10 @@ a:any-link {
     border: ridge rgb(172, 172, 172);
 }
 
+a:hover {
+    background-color: red;
+}
+
 .recipe-description {
     color: chocolate;
 }
