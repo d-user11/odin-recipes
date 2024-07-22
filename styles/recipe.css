@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #FEFDED;
+    padding: 2% 10%;
+}
+
+.title,
+.description,
+.ingredients,
+.steps {
+    margin: 10px;
+    padding: 10px;
+}
+
+ul,
+ol {
+    margin: 16px;
+    padding-left: 30px;
+}
+
+.title {
+    text-align: center;
+    background-color: #FA7070;
+}
+
+.title>h1 {
+    font-size: 50px;
+}
+
+.title>img {
+    width: 50%;
+    height: auto;
+}
+
+.description {
+    background-color: #A1C398;
+}
+
+.ingredients {
+    background-color: #C6EBC5;
+}
+
+
+.ingredients li {
+    list-style: url(../images/mushroom.svg);
+}
+
+.steps {
+    background-color: #C6EBC5;
+}
+
+.steps li {
+    list-style-type: decimal;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    border: 3px solid black;
+    margin: 30px 30% 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+a:hover {
+    background-color: #FA7070;
+    color: #FEFDED;
+}
